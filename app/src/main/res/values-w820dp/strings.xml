@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">miralnew1</string>
+    <string name="tvTitle">TextView</string>
+    <string name="btClick">Button</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_recipe_details">RecipeDetailsActivity</string>
+</resources>

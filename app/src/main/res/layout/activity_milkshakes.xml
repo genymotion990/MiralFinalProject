@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shakepage"
+    tools:context="com.example.hp1.myapplication.Milkshakes">
+
+
+    <TextView
+        android:text="Choose which milkshake you would like to make"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lvMyshakes"
+        android:layout_height="196dp" />
+
+    <Button
+        android:text="Add more shakes from your experince"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btshakerec"
+        android:textAlignment="center" />
+</LinearLayout>

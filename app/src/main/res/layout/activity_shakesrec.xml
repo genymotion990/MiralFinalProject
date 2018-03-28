@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shakesrec"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp1.myapplication.Shakesrec"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="Insert Ingeredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmilkIng"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/etshakesRecipe1"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:text="Insert Instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmilkIns"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/etshakesRecipe2"
+        android:layout_weight="0.16" />
+
+    <ImageView
+        android:layout_width="150dp"
+        app:srcCompat="@drawable/cake"
+        android:id="@+id/imageView"
+        android:layout_height="150dp" />
+
+    <Button
+        android:text="Add Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btAddImagesh"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:text="Add recipe "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btAddrecipesh" />
+</LinearLayout>

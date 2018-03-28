@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chocolate_cake"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cakechock"
+    tools:context="com.example.hp1.myapplication.Chocolate_cake"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Ingedients:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvchoclate1"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/lvchoclateing"
+        android:layout_weight="0.59" />
+
+    <TextView
+        android:text="Instructions:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvchocolate2"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:id="@+id/lvchocolateins"
+        android:layout_weight="0.80" />
+
+</LinearLayout>

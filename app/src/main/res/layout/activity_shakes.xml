@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp1.myapplication.ShakesActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tvingrediants"
+        android:layout_width="71dp"
+        android:layout_height="33dp"
+        android:text="ingredients"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:id="@+id/tvinstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="instructions"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <ImageView
+        android:layout_width="287dp"
+        android:layout_height="453dp"
+        app:srcCompat="@drawable/coverphoto"
+        tools:layout_editor_absoluteY="85dp"
+        tools:layout_editor_absoluteX="38dp"
+        android:id="@+id/imageViewRecipe" />
+</android.support.constraint.ConstraintLayout>

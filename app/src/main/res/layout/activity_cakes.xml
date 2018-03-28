@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chees_cake"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.hp1.myapplication.CakesActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="title"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:layout_weight="0.05"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/tvIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="ingrediants"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvinstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="instruction"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageViewRecipe"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/cakechock" />
+</LinearLayout>
